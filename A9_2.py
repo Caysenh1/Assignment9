@@ -1,0 +1,5 @@
+N = int(input("Enter a number: "))
+N2 = list(range(2, N, 2))
+N1 = list(range(1, N, 2))
+print(*N2)
+print(*N1)
